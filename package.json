@@ -1,0 +1,23 @@
+{
+  "name": "jardin",
+  "version": "1.0.0",
+  "description": "Module domotique du jardin",
+  "main": "jardin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franckapik/jardin.git"
+  },
+  "author": "Franckapik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franckapik/jardin/issues"
+  },
+  "homepage": "https://github.com/Franckapik/jardin#readme",
+  "dependencies": {
+    "influx": "^5.0.7",
+    "rpi-gpio": "git://github.com/JamesBarwell/rpi-gpio.js.git#v2"
+  }
+}
